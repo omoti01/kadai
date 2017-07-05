@@ -1,5 +1,5 @@
 /*
- * - 入力値の素数判定 -
+ * - Prime numbers -
  */
 #include <stdio.h>
 int main()
@@ -8,10 +8,9 @@ int main()
   int num;
   int flag = 0;
  
-  printf("数：");
+  printf("Number：");
   scanf("%d", &num);
  
-  /* 素数判定 */
   for( i=2;i<num;++i ) {
     if( num%i==0 ) {
       flag = 1;
@@ -19,9 +18,6 @@ int main()
     }
   }
    if( flag==0 )
-    printf("%d は素数です。\n",number);
-  else
-    printf("%d は素数ではありません。\n",number);
-
+    printf("%d is prime number\n",num);
   return 0;
 }
