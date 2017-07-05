@@ -1,6 +1,2 @@
 TEST
-<<<<<<< HEAD
 TEST3
-=======
-TEST2
->>>>>>> origin/master
